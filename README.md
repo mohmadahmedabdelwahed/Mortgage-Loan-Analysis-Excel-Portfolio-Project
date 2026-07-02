@@ -43,6 +43,20 @@ Statistical distribution checks (mean, median, skewness) were applied to key num
 
 ---
 
+## Correlation Analysis:
+Pearson correlation coefficients were calculated between key variables and Max Loan Amount to validate observed relationships:
+| Variable Pair | Correlation | Strength |
+|---|---|---|
+| Annual Income vs. Max Loan Amount | 0.80 | Strong positive |
+| Credit Score vs. Max Loan Amount | 0.70 | Strong positive |
+| Interest Rate vs. Max Loan Amount | -0.65 | Strong negative |
+| Down Payment vs. Max Loan Amount | 0.47 | Moderate positive |
+| Loans Repaid vs. Max Loan Amount | 0.37 | Moderate positive |
+| Loans Repaid vs. Credit Score | 0.43 | Moderate positive |
+| **Interest Rate vs. Credit Score** | **-0.95** | **Very strong negative** |
+
+> **Key insight:** The strongest relationship in the dataset was between Interest Rate and Credit Score (−0.95), confirming that lenders price risk heavily based on creditworthiness — applicants with higher credit scores are consistently offered lower interest rates. This relationship underpins much of the downstream analysis.
+
 
 
 
