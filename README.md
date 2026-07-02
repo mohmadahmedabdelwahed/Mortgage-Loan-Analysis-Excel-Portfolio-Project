@@ -33,7 +33,7 @@ the datsset contains 49991 rows of applicants records.
 - Confirmed **no duplicate applicant records** across 49991 rows
 - Performed unique-value checks on categorical fields (Job, Education) confirming clean, consistent categories
 
-## Distribution Analysis:
+### Distribution Analysis:
 Statistical distribution checks (mean, median, skewness) were applied to key numeric fields to assess data reliability before deeper analysis:
 | Field | Finding |
 |---|---|
@@ -43,7 +43,7 @@ Statistical distribution checks (mean, median, skewness) were applied to key num
 
 ---
 
-## Correlation Analysis:
+### Correlation Analysis:
 Pearson correlation coefficients were calculated between key variables and Max Loan Amount to validate observed relationships:
 | Variable Pair | Correlation | Strength |
 |---|---|---|
@@ -57,13 +57,13 @@ Pearson correlation coefficients were calculated between key variables and Max L
 
 > **Key insight:** The strongest relationship in the dataset was between Interest Rate and Credit Score (−0.95), confirming that lenders price risk heavily based on creditworthiness — applicants with higher credit scores are consistently offered lower interest rates. This relationship underpins much of the downstream analysis.
 
-## Full Correlation Matrix:
+### Full Correlation Matrix:
 pic
 
-## Age Grouping:
+### Age Grouping:
 Applicants were segmented into age brackets using ` IF` to enable cohort-level comparisons of financial behavior and loan outcomes by life stage.
 
-## Multi-Factor Risk Scoring Model:
+### Multi-Factor Risk Scoring Model:
 A custom risk classification model was developed using four variables: **Credit Score, Interest Rate, Loans Repaid,** and **Annual Income.**
 
 **Methodology:**
@@ -80,6 +80,68 @@ A custom risk classification model was developed using four variables: **Credit 
 | 10–12 | 🔴 High Risk |
 
 **Model validation note:** An initial assumption that high Loans Repaid indicated risk was tested using correlation analysis (Loans Repaid vs. Credit Score = +0.43) and disproven — higher Loans Repaid is associated with *better* credit scores, not worse. The scoring direction was corrected accordingly, replacing intuition with data-driven evidence.
+
+## Analysis & Key Findings:
+### Q1 — Who Gets the Highest Loans, and Why?
+Across nearly every dimension analyzed, a consistent pattern emerged: **applicants with the highest Max Loan Amounts also had the highest Annual Income and Credit Score**, confirming the strong correlations (0.80 and 0.70) as the primary drivers of loan size.
+
+#### By Profession & Education
+- **Doctors, business owners, and lawyers** ranked as the top three professions by average Max Loan Amount — consistent with their higher average income and credit scores
+- **PhD and Master's degree holders** received the highest average loan amounts, reflecting the same underlying income and credit advantages rather than education having an independent effect
+
+#### By Demographics
+- Marital status and gender showed **negligible influence** on loan outcomes:
+  - Unmarried applicants received only ~$11,000 more on average
+  - Female applicants received only ~$100 more on average than males
+- Neither factor was considered a meaningful driver given the small magnitude relative to the overall loan range
+
+
+#### By Employment Experience
+- Applicants with **40–50 years of employment** received the highest average loan amounts, reinforcing employment tenure as a meaningful contributor to financial standing
+
+#### By Age Group — Key Finding ⭐
+The **81–90 age group** showed the highest average income, credit score, and loan amount of any age bracket.
+
+> Initial inspection raised the possibility of a small-sample anomaly; however, the substantial sample size ruled this out. Further investigation revealed this group's **average Employment Years was 50, vs. a dataset average of 32** — a 56% difference.
+
+This supports a clear causal chain:
+```
+Older age → More employment years → Higher accumulated income & credit history → Higher loan amounts
+```
+
+The finding is both statistically credible (large sample size) and consistent with real-world financial behavior.
+
+#### By Risk and Interest Rate
+- Low-risk applicants and those with the **lowest interest rates** received the highest average loan amounts — both consistent with the same underlying income and credit score advantages
+
+#### Conclusion
+> Annual Income, Credit Score, Job, Education, and Employment Experience are the primary drivers of Max Loan Amount. Gender and Marital Status have no meaningful effect — indicating that loan outcomes are driven by **financial capacity and creditworthiness, not demographic factors.**
+
+---
+
+### Q2 — Risk Patterns Across Groups
+
+#### By Profession
+- **Doctors, lawyers, and business owners** — highest proportion of Low Risk applicants
+- **Nurses, retirees, and freelancers** — highest proportion of High Risk applicants
+- This aligns directly with income and credit score patterns from Q1
+
+#### By Education
+- Bachelor's and Master's holders appeared most frequently across both Low and High Risk categories — but this reflects the **dataset's underlying composition** (these two groups are the most common overall), not a meaningful relationship between education and risk
+
+#### By Debt-to-Income Ratio
+- Average DTI was **nearly identical across all risk groups (~17%)**, suggesting risk classification is driven by the four scored variables rather than existing debt burden
+- The risk model captures **creditworthiness and repayment capacity**, not current debt load
+
+#### By Loans Repaid — Unexpected Pattern 🔍
+| Risk Group | Peak Loans Repaid | Lowest Concentration At |
+|---|---|---|
+| Low Risk | 8 loans | 22 loans |
+| High Risk | 2 loans | 16 loans |
+
+
+
+
 
 
 
