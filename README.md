@@ -46,7 +46,7 @@ Statistical distribution checks (mean, median, skewness) were applied to key num
 
 ![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/credit%20distr.png)
 
-![Image Alt]([https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/credit%20distr.png](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/down%20distr.png))
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/down%20distr.png)
 
 ![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/interest%20dist.png)
 
