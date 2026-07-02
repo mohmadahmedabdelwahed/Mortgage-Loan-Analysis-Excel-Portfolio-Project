@@ -104,11 +104,6 @@ Across nearly every dimension analyzed, a consistent pattern emerged: **applican
 
 ![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loan%20and%20credit%20by%20job.png)
 
-![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loan%20by%20edu.png)
-
-![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loana%20nd%20income%20by%20edu.png)
-
-
 - **PhD and Master's degree holders** received the highest average loan amounts, reflecting the same underlying income and credit advantages rather than education having an independent effect
 
 ![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loan%20by%20edu.png)
