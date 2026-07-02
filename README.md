@@ -146,6 +146,8 @@ The finding is both statistically credible (large sample size) and consistent wi
 
 ![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loan%20and%20income%20by%20age%20agroup.png)
 
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loana%20nd%20credit%20by%20age%20group.png)
+
 
 #### By Risk and Interest Rate
 - Low-risk applicants and those with the **lowest interest rates** received the highest average loan amounts — both consistent with the same underlying income and credit score advantages
