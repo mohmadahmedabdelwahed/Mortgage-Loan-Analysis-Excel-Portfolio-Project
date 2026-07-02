@@ -107,11 +107,13 @@ Across nearly every dimension analyzed, a consistent pattern emerged: **applican
 ![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loana%20nd%20income%20by%20edu.png)
 
 
-
 - **PhD and Master's degree holders** received the highest average loan amounts, reflecting the same underlying income and credit advantages rather than education having an independent effect
 
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loan%20by%20edu.png)
 
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loana%20nd%20income%20by%20edu.png)
 
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loan%20and%20credit%20by%20edu.png)
 
 
 #### By Demographics
@@ -123,6 +125,11 @@ Across nearly every dimension analyzed, a consistent pattern emerged: **applican
 
 #### By Employment Experience
 - Applicants with **40–50 years of employment** received the highest average loan amounts, reinforcing employment tenure as a meaningful contributor to financial standing
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loana%20by%20work.png)
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loan%20and%20income%20by%20work.png)
+
 
 #### By Age Group — Key Finding ⭐
 The **81–90 age group** showed the highest average income, credit score, and loan amount of any age bracket.
@@ -136,8 +143,17 @@ Older age → More employment years → Higher accumulated income & credit histo
 
 The finding is both statistically credible (large sample size) and consistent with real-world financial behavior.
 
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loan%20by%20age%20group.png)
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loan%20and%20income%20by%20age%20agroup.png)
+
+
 #### By Risk and Interest Rate
 - Low-risk applicants and those with the **lowest interest rates** received the highest average loan amounts — both consistent with the same underlying income and credit score advantages
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loan%20and%20income%20by%20risk.png)
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loan%20and%20credit%20by%20risk.png)
 
 #### Conclusion
 > Annual Income, Credit Score, Job, Education, and Employment Experience are the primary drivers of Max Loan Amount. Gender and Marital Status have no meaningful effect — indicating that loan outcomes are driven by **financial capacity and creditworthiness, not demographic factors.**
