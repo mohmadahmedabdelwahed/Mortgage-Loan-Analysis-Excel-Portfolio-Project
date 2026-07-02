@@ -185,6 +185,8 @@ The finding is both statistically credible (large sample size) and consistent wi
 - **Nurses, retirees, and freelancers** — highest proportion of High Risk applicants
 - This aligns directly with income and credit score patterns from Q1
 
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/%25%20of%20applicants%20by%20job.png)
+
 #### By Education
 - Bachelor's and Master's holders appeared most frequently across both Low and High Risk categories — but this reflects the **dataset's underlying composition** (these two groups are the most common overall), not a meaningful relationship between education and risk
 
