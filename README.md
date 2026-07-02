@@ -41,6 +41,9 @@ Statistical distribution checks (mean, median, skewness) were applied to key num
 | Max Loan Amount | Mean exceeds Median by ~$40,000, Skew = 0.5 → moderately right-skewed, driven by high-value loans. |
 | Credit Score | Mean ≈ Median, Skew = -0.4 → left tail; most applicants cluster at higher scores with a small low-outlier group. |
 
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/annual%20dist.png)
+
 ---
 
 ### Correlation Analysis:
