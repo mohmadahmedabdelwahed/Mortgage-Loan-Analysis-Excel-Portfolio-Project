@@ -127,6 +127,8 @@ Across nearly every dimension analyzed, a consistent pattern emerged: **applican
 
 ![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loan%20and%20income%20by%20work.png)
 
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loan%20and%20credit%20by%20work%20years.png)
+
 
 #### By Age Group — Key Finding ⭐
 The **81–90 age group** showed the highest average income, credit score, and loan amount of any age bracket.
