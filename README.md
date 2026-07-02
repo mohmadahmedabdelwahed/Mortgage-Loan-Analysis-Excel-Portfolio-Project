@@ -139,6 +139,33 @@ The finding is both statistically credible (large sample size) and consistent wi
 | Low Risk | 8 loans | 22 loans |
 | High Risk | 2 loans | 16 loans |
 
+This suggests the relationship between Loans Repaid and risk **may not be strictly linear** — a moderate number of repaid loans signals a positive repayment track record, while a very high number could indicate over-reliance on credit. Further investigation with additional data could confirm whether this is a curved relationship.
+
+#### Conclusion
+> Risk classification is most strongly driven by profession-linked income and credit score. Education shows no independent effect once dataset composition is accounted for, and DTI does not meaningfully differentiate risk groups. The Loans Repaid pattern warrants further investigation.
+
+
+---
+
+### Q3 — Geographic Differences
+
+#### Risk Distribution by Area
+Across all three area types (Urban, Suburban, Rural), the **majority of applicants fell into Medium Risk**, with no area showing a distinctly different risk profile from the others.
+
+#### Financial Metrics by Area
+No meaningful gap was observed between Urban, Suburban, and Rural applicants across average Annual Income, Max Loan Amount, or Credit Score.
+
+> This is a logical outcome: location-driven cost factors (regional property prices, cost of living) are **not captured as variables** in this dataset. Without this link, geography has no mechanism to influence outcomes.
+
+#### Conclusion
+> Individual financial behavior — not demographic or geographic factors — is the dominant driver of outcomes in this dataset. This conclusion holds consistently across all three analytical questions.
+
+## Limitations:
+- This analysis is based on a **synthetic dataset** and does not account for macroeconomic factors, regional cost of living, or time-based trends
+- The **Loans Repaid** variable's exact definition (loans fully repaid vs. active loans) was inferred through correlation analysis rather than provided directly, introducing minor interpretive uncertainty
+- The absence of **property price data** limits geographic analysis — Area type cannot be meaningfully evaluated without location-adjusted cost-of-living variables
+- The risk model is a **simplified scoring system** and should not be treated as a substitute for actuarial or machine-learning-based credit risk models
+
 
 
 
