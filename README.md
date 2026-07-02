@@ -220,6 +220,8 @@ No meaningful gap was observed between Urban, Suburban, and Rural applicants acr
 
 > This is a logical outcome: location-driven cost factors (regional property prices, cost of living) are **not captured as variables** in this dataset. Without this link, geography has no mechanism to influence outcomes.
 
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loana%20nd%20income%20by%20area.png)
+
 #### Conclusion
 > Individual financial behavior — not demographic or geographic factors — is the dominant driver of outcomes in this dataset. This conclusion holds consistently across all three analytical questions.
 
