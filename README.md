@@ -27,4 +27,22 @@ the datsset contains 49991 rows of applicants records.
 
 ---
 
+## Data Preparation & Cleaning:
+- Converted raw data into a structured **Excel Table** to enable dynamic referencing throughout the analysis
+- Formatted currency fields (Annual Income, Down Payment, Existing Monthly Debt, Max Loan Amount) and Interest Rate as percentage
+- Confirmed **no duplicate applicant records** across 49991 rows
+- Performed unique-value checks on categorical fields (Job, Education) confirming clean, consistent categories
+
+## Distribution Analysis:
+Statistical distribution checks (mean, median, skewness) were applied to key numeric fields to assess data reliability before deeper analysis:
+| Field | Finding |
+|---|---|
+| Annual Income | Mean ≈ Median, Skew = 0.06 → balanced, symmetric distribution. Averages are reliable. |
+| Max Loan Amount | Mean exceeds Median by ~$40,000, Skew = 0.5 → moderately right-skewed, driven by high-value loans. |
+| Credit Score | Mean ≈ Median, Skew = -0.4 → left tail; most applicants cluster at higher scores with a small low-outlier group. |
+
+---
+
+
+
 
