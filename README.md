@@ -68,8 +68,7 @@ Pearson correlation coefficients were calculated between key variables and Max L
 
 > **Key insight:** The strongest relationship in the dataset was between Interest Rate and Credit Score (−0.95), confirming that lenders price risk heavily based on creditworthiness — applicants with higher credit scores are consistently offered lower interest rates. This relationship underpins much of the downstream analysis.
 
-### Full Correlation Matrix:
-pic
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/correlation.png)
 
 ### Age Grouping:
 Applicants were segmented into age brackets using ` IF` to enable cohort-level comparisons of financial behavior and loan outcomes by life stage.
