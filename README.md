@@ -57,6 +57,30 @@ Pearson correlation coefficients were calculated between key variables and Max L
 
 > **Key insight:** The strongest relationship in the dataset was between Interest Rate and Credit Score (−0.95), confirming that lenders price risk heavily based on creditworthiness — applicants with higher credit scores are consistently offered lower interest rates. This relationship underpins much of the downstream analysis.
 
+## Full Correlation Matrix:
+pic
+
+## Age Grouping:
+Applicants were segmented into age brackets using ` IF` to enable cohort-level comparisons of financial behavior and loan outcomes by life stage.
+
+## Multi-Factor Risk Scoring Model:
+A custom risk classification model was developed using four variables: **Credit Score, Interest Rate, Loans Repaid,** and **Annual Income.**
+
+**Methodology:**
+- Rather than relying on arbitrary cutoffs, **percentile thresholds (33rd and 67th percentile)** were calculated directly from the dataset for each variable
+- Each variable was scored **1–3** (1 = favorable, 3 = unfavorable) based on its percentile band, accounting for the correct directional relationship:
+  - Higher Credit Score, Annual Income, and Loans Repaid → risk-reducing (lower score)
+  - Higher Interest Rate → risk-increasing (higher score)
+- The four scores were summed into a **Total Risk Score (range: 4–12)**
+
+| Total Score | Risk Classification |
+|---|---|
+| 4–6 | 🟢 Low Risk |
+| 7–9 | 🟡 Medium Risk |
+| 10–12 | 🔴 High Risk |
+
+**Model validation note:** An initial assumption that high Loans Repaid indicated risk was tested using correlation analysis (Loans Repaid vs. Credit Score = +0.43) and disproven — higher Loans Repaid is associated with *better* credit scores, not worse. The scoring direction was corrected accordingly, replacing intuition with data-driven evidence.
+
 
 
 
