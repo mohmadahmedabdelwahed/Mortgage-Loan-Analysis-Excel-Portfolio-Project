@@ -97,7 +97,22 @@ Across nearly every dimension analyzed, a consistent pattern emerged: **applican
 
 #### By Profession & Education
 - **Doctors, business owners, and lawyers** ranked as the top three professions by average Max Loan Amount — consistent with their higher average income and credit scores
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/loan%20by%20job.png)
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/loan%20an%20income%20by%20job.png)
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loan%20by%20edu.png)
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/max%20loana%20nd%20income%20by%20edu.png)
+
+
+
 - **PhD and Master's degree holders** received the highest average loan amounts, reflecting the same underlying income and credit advantages rather than education having an independent effect
+
+
+
+
 
 #### By Demographics
 - Marital status and gender showed **negligible influence** on loan outcomes:
