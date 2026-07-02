@@ -5,7 +5,7 @@ Excel-based analysis of mortgage loan applicants exploring loan drivers, borrowe
 This project is a comprehensive data analysis of a mortgage loan dataset containing ~50,000 applicants, conducted entirely in Microsoft Excel. The goal was to identify the key drivers of loan amount, build a data-driven risk classification model, and uncover patterns across borrower profiles — covering profession, education, age, employment experience, and geography.
 
 ## Dataset Description:
-the datsset contains 49991 rows of applicants records.
+the dataset contains 49991 rows of applicants records.
 
 ## Dataset Overview:
 | Field | Description |
