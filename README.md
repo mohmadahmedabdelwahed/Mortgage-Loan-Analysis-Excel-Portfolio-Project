@@ -194,6 +194,8 @@ The finding is both statistically credible (large sample size) and consistent wi
 - Average DTI was **nearly identical across all risk groups (~17%)**, suggesting risk classification is driven by the four scored variables rather than existing debt burden
 - The risk model captures **creditworthiness and repayment capacity**, not current debt load
 
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Mortgage-Loan-Analysis-Excel-Portfolio-Project/blob/main/debt.png)
+
 #### By Loans Repaid — Unexpected Pattern 🔍
 | Risk Group | Peak Loans Repaid | Lowest Concentration At |
 |---|---|---|
